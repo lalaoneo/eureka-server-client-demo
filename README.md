@@ -1,7 +1,7 @@
 # eureka-server-client-demo
 * starter引入依赖:`web, eureka-serv, eureka-discovery, fegin, hystrix, ribbon, actuator`,所有依赖引入到子项目中后再删除.
- * 父pom删除test
- * actuator移入consumer,provider中
+ * 父pom删除test,dependencyManagement,build,repositories
+ * actuator，dependencyManagement,build,repositories移入consumer,provider,eureka-server中
 
 * 创建eureka-server模块,把eureka-server依赖引入进来
 
